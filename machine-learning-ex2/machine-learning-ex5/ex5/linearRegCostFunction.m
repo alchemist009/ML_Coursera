@@ -27,7 +27,7 @@ reg2 = (lambda/m) .* theta;
 
 reg2(1) = 0;
 
-grad = ((1/m) .* X' * (X*theta - y)) + reg2;
+grad = ((1/m) .* X' * (h- y)) + reg2;
 
 
 
