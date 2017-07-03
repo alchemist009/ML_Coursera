@@ -14,10 +14,13 @@ X_poly = zeros(numel(X), p);
 %               column of X contains the values of X to the p-th power.
 %
 % 
-
-
-
-
+for n = 1:size(X,1)
+	feat_poly = zeros(p, 1);
+	for i = 1:p
+		feat_poly(i) = power(X(n), i); 
+	end
+	X_poly(n, :) = feat_poly;
+end
 
 
 % =========================================================================
