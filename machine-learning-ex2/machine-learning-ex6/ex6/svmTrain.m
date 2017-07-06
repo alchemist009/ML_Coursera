@@ -19,7 +19,7 @@ function [model] = svmTrain(X, Y, C, kernelFunction, ...
 %           SVMLight (http://svmlight.joachims.org/)
 %
 %
-
+%C = 50;
 if ~exist('tol', 'var') || isempty(tol)
     tol = 1e-3;
 end
@@ -110,7 +110,7 @@ while passes < max_passes,
             end
            
             if (L == H),
-                % continue to next i. 
+                % continue to net i. 
                 continue;
             end
 
