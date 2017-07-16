@@ -1,0 +1,25 @@
+Top recommendations for you:
+Predicting rating 5.0 for movie Great Day in Harlem, A (1994)
+Predicting rating 5.0 for movie They Made Me a Criminal (1939)
+Predicting rating 5.0 for movie Star Kid (1997)
+Predicting rating 5.0 for movie Marlene Dietrich: Shadow and Light (1996)
+Predicting rating 5.0 for movie Entertaining Angels: The Dorothy Day Story (1996)
+Predicting rating 5.0 for movie Santa with Muscles (1996)
+Predicting rating 5.0 for movie Aiqing wansui (1994)
+Predicting rating 5.0 for movie Someone Else's America (1995)
+Predicting rating 5.0 for movie Saint of Fort Washington, The (1993)
+Predicting rating 5.0 for movie Prefontaine (1997)
+
+
+Original ratings provided:
+Rated 4 for Toy Story (1995)
+Rated 5 for Rumble in the Bronx (1995)
+Rated 5 for Professional, The (1994)
+Rated 5 for Pulp Fiction (1994)
+Rated 4 for Aladdin (1992)
+Rated 2 for Silence of the Lambs, The (1991)
+Rated 3 for Independence Day (ID4) (1996)
+Rated 5 for 12 Angry Men (1957)
+Rated 2 for Event Horizon (1997)
+Rated 3 for Air Force One (1997)
+Rated 5 for Spawn (1997)
