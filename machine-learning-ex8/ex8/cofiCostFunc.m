@@ -44,10 +44,10 @@ err = ((X * Theta' - Y) .* R);
 sqrerr = err .^ 2;
 J = (1/2) * sum(sqrerr(:)) + (lambda/2) * sum(Theta(:) .^ 2) + (lambda/2) * sum(X(:) .^ 2);
 
-X_grad = ((X * Theta' - Y) .* R) * Theta;
+X_grad = ((X * Theta' - Y) .* R) * Theta + lambda * X;
 %X_grad = err * Theta;
 
-Theta_grad = ((X * Theta' - Y) .* R)' * X;
+Theta_grad = ((X * Theta' - Y) .* R)' * X + lambda * Theta;
 %Theta_grad = err' * X;
 % =============================================================
 
