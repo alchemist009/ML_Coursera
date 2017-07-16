@@ -43,6 +43,9 @@ Theta_grad = zeros(size(Theta));
 err = ((X * Theta' - Y) .* R);
 sqrerr = err .^ 2;
 J = (1/2) * sum(sqrerr(:));
+
+X_grad = ((X * Theta' - Y) .* R) * Theta;
+Theta_grad = ((X * Theta' - Y) .* R)' * X;
 % =============================================================
 
 grad = [X_grad(:); Theta_grad(:)];
