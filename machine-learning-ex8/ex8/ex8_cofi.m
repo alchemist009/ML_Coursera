@@ -135,15 +135,15 @@ my_ratings(98) = 2;
 
 % We have selected a few movies we liked / did not like and the ratings we
 % gave are as follows:
-my_ratings(7) = 3;
-my_ratings(12)= 5;
-my_ratings(54) = 4;
-my_ratings(64)= 5;
-my_ratings(66)= 3;
-my_ratings(69) = 5;
-my_ratings(183) = 4;
-my_ratings(226) = 5;
-my_ratings(355)= 5;
+my_ratings(24) = 5;
+my_ratings(56)= 5;
+my_ratings(55) = 5;
+my_ratings(95)= 4;
+my_ratings(121)= 3;
+my_ratings(178) = 5;
+my_ratings(260) = 2;
+my_ratings(300) = 3;
+my_ratings(358)= 5;
 
 fprintf('\n\nNew user ratings:\n');
 for i = 1:length(my_ratings)
